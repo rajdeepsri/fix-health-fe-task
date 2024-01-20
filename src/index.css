@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+@layer components {
+    .form_div {
+        @apply flex items-center
+    }
+
+    .form_label {
+        @apply w-[15rem]
+    }
+
+    .form_input {
+        @apply bg-neutral-700 text-white py-1 px-2 rounded-sm
+    }
+}
